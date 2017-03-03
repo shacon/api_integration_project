@@ -22,7 +22,6 @@ class CustomerScoringClient():
         else:
             raise Exception("Error: Status code of" + str(status) + "returned.")
 
-
     def build_api_url(self, income, zipcode, age):
         """
         Creates the url string for the api call
