@@ -12,7 +12,7 @@ Python 2.7.6
 
     Install the repo
 
-    pip install git+https://github.com/shacon/api_project.git
+    pip install git+https://github.com/shacon/api_integration_project.git
 
 
 # Using the library
