@@ -13,7 +13,7 @@ class CustomerScoringClient():
         url = self.build_api_url(income, zipcode, age)
         response = requests.get(url)
         status = response.status_code
-        if response.ok
+        if response.ok:
             return response
         elif status == 404:
             raise Exception("Resource not found")
